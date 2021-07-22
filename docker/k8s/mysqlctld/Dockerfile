@@ -16,7 +16,7 @@ ARG VT_BASE_VER=latest
 
 FROM vitess/k8s:${VT_BASE_VER} AS k8s
 
-FROM debian:buster-slim
+FROM debian:10.10-slim
 
 RUN apt-get update && \
    apt-get upgrade -qq && \
