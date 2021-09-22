@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM debian:jessie
+FROM debian:11
 
 # Install Percona XtraDB Cluster (Galera)
 RUN apt-key adv --keyserver keys.gnupg.net --recv-keys 9334A25F8507EFA5 && \
