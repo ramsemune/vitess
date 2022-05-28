@@ -16,7 +16,7 @@ ARG VT_BASE_VER=latest
 
 FROM vitess/base:${VT_BASE_VER} AS base
 
-FROM debian:buster-slim
+FROM debian:10.12-slim
 
 # Set up Vitess environment (just enough to run pre-built Go binaries)
 ENV VTROOT /vt
