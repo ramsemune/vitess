@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM debian:buster-slim
+FROM debian:10.12-slim
 
 ENV TAIL_FILEPATH /dev/null
 
